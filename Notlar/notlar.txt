@@ -1,0 +1,15 @@
+--This means that you might have to use "yarn nx" or "npx nx" to execute commands in the workspace.
+Run "yarn global add nx" or "npm install -g nx" to be able to execute command directly.
+
+--vscode install nx console plugin
+
+-- generate apps by clicking app folder and continue with 
+Nx Generate section. Then we can chose application, library etc. to create.
+
+--running app in console (nx s admin) nx serve admin projects
+
+-- we can create libs as publishable(its is for using created lib form outside monorepo) or buildable.
+
+--nx graph --> this command is to see which app or lib or component in use on which location.
+
+--nx affected:graph --> after any changes we will be able to see which part of the project affected.

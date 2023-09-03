@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'nx-angular-nx-welcome',
+  selector: 'store-nx-welcome',
   template: `
 <auth-login></auth-login>
   `,
